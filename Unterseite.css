@@ -379,6 +379,10 @@ body{
         color: #FFFFFF;
         text-align: center;
     }
+
+    .ptext h3{
+        font-style: italic;
+    }
        
     .ul_termine{
         display: block;
@@ -411,6 +415,7 @@ body{
         right: 15px;
         /*border: 3px solid #f1f1f1;*/
         z-index: 9;
+        width: 100%;
     }
     
     /* Add styles to the form container */
@@ -578,6 +583,13 @@ body{
         top: 30%;
     }
 
+    .ul_termine{
+        right: 5%;
+        width: 90%;
+    }
+    .open-button {
+        width: 80%;
+    }
 
 }
 @media screen and (width: 320px) and (height: 568px){
@@ -601,7 +613,13 @@ body{
     .titelpic_job{
         top: 30%;
     }
-
+    .ul_termine{
+        right: 5%;
+        width: 90%;
+    }
+    .open-button {
+        width: 80%;
+    }
 
 }
 
@@ -634,6 +652,10 @@ body{
     }
     .titelpic_job{
         top: 30%;
+    }
+    .ul_termine{
+        right: 5%;
+        width: 90%;
     }
 }
 
@@ -687,6 +709,11 @@ body{
         /*z-index: 500;*/
         width: 94%;
         left: 6%;
+    }
+    .ul_termine{
+        display: block;
+        width: 80%;
+
     }
    
 }
