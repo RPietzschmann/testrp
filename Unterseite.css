@@ -429,6 +429,10 @@ body{
     .form-container h3{
         color: #B9AFAE;
     }
+
+    .form-container p{
+        color: #B9AFAE;
+    }
     /* Full-width input fields */
     .form-container input[type=text], .form-container input[type=password], .form-container input[type=email]{
         width: 100%;
