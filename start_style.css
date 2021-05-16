@@ -1,0 +1,1305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* 1 */
+/*Handybild erledigt*/
+
+/*@media only screen and (max-width: 320px) {*/
+    body{
+        background-image: url("pics/Sandra_klein2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; 
+        /*background: #292929;*/
+        width: 100%;
+        height: 100%;
+        
+    }
+    /*Navbar*/
+    .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+         height: 72px;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        width: 99%;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    nav {
+        display: flex;
+        align-items: flex-start; /*center;*/
+        /*justify-content: space-between;*%`/
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+      }
+      
+      nav ul {
+        display: flex;
+        left: 3%;
+        width: 99%;
+        padding-left: 0%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 5%; /*100px*/
+        margin-left: 1%;
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+    }
+
+
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        /*width: 442px;*/
+        width: 90%;
+        /*height: 102px;*/
+        height: 12%;
+        /*left: 154px;
+        top: 262px;*/
+        left: 9%;
+        top: 3%;
+    }
+
+
+
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+    
+    }
+
+    img{
+        width: 90%; 
+        height: 100%;
+    }
+    /* Line 1 */
+
+    hr.solid {
+        position: absolute;
+        /*width: 350px;*/
+        width: 90%;
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 3%;
+        top: 15%;
+    
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+
+    
+    /* Einzelcoaching Unternehmensberatung Beautycoaching */
+    .textbox{
+        position: absolute;
+        width: 100%;
+        height: 12%;
+       /* width: 441px;
+        height: 123px;*/
+        /*left: 143px;
+        top: 522px;
+        left 5%; width: 90%*/
+        left: 0%;
+        top: 45%;
+        text-align: center;
+    
+    }
+    li{
+        list-style: none;
+    }
+    
+    .ptext{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #B7A09E;
+        left:0px; 
+        margin-bottom: 0rem;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .contact_box{
+        position: absolute;
+        width: 100%;
+        height: 54px;
+        /*left: 468px;
+        top: 1083px;
+        bottom: 30%; left 2% width 98%*/
+        left: 0%;
+        top: 65%;
+        text-align: center;
+    }
+
+    .acontact_mail{
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 36px;
+       /* bottom: 30%;*/
+        color: #B7A09E;
+        text-align: center;
+    }
+    .h2_contact{
+        color: #B7A09E;
+        font-family: Roboto;
+        font-style: normal;
+    }
+    
+
+    
+
+    footer{
+        display: flex; 
+        float: left;
+        
+        position: fixed;
+        left: 0%;
+        
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+       /* left: 38%;*/
+        left: 3%;
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        word-spacing: 1em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        /*left: 45%;*/
+        left: 10%;
+    }
+    
+/*}*/
+/*passt soweit*/
+@media screen and (min-width: 350px){
+     /*Navbar*/
+    .nav-container {
+       /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+        height: 72px;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        width: 99%;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+    }
+    hr.solid {
+        position: absolute;
+        /*width: 350px;*/
+        width: 95%;
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 3%;
+        top: 15%;
+    
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+
+    footer{
+        display: flex; 
+        float: left;
+        
+        position: fixed;
+        left: 4%;
+        
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    
+}
+
+/*passt soweit*/
+@media screen and (min-width: 400px){
+    .nav-container {
+    height: 72px;
+    width: 95%;
+    position: absolute;
+    left: 5%;
+    top: 21%;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    body{
+        background-image: url("pics/Sandra_klein2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; 
+        /*background: #292929;*/
+        width: 100%;
+        height: 100%;
+        
+    }
+    /*Navbar*/
+    .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+         height: 72px;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        width: 90%;
+        position: absolute;
+        left: 9%;
+        top: 21%;
+    }
+    nav {
+        display: flex;
+        align-items: flex-start; /*center;*/
+        /*justify-content: space-between;*%`/
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+      }
+      
+      nav ul {
+        display: flex;
+        left: 3%;
+        width: 99%;
+        padding-left: 0%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 5%; /*100px*/
+        margin-left: 1%;
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+    }
+
+
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        /*width: 442px;*/
+        width: 90%;
+        /*height: 102px;*/
+        height: 12%;
+        /*left: 154px;
+        top: 262px;*/
+        left: 9%;
+        top: 3%;
+    }
+
+
+
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+    
+    }
+
+    img{
+        width: 90%; 
+        height: 100%;
+    }
+    /* Line 1 */
+
+    hr.solid {
+        position: absolute;
+        /*width: 350px;*/
+        width: 90%;
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 5%;
+        top: 17%;
+    
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+
+    
+    /* Einzelcoaching Unternehmensberatung Beautycoaching */
+    .textbox{
+        position: absolute;
+        width: 100%;
+        height: 12%;
+       /* width: 441px;
+        height: 123px;*/
+        /*left: 143px;
+        top: 522px;*/
+        left: 0%;
+        top: 45%;
+
+    
+    }
+    .ptext{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 23px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #B7A09E;
+        left:0px; 
+        margin-bottom: 0rem;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .contact_box{
+        position: absolute;
+        width: 98%;
+        height: 54px;
+        /*left: 468px;
+        top: 1083px;
+        bottom: 30%;*/
+        left: 2%;
+        top: 65%;
+    }
+
+    .acontact_mail{
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 36px;
+       /* bottom: 30%;*/
+        color: #B7A09E;
+    }
+    
+
+    
+
+    footer{
+        display: flex; 
+        float: left;
+        
+        position: fixed;
+        left: 10%;
+        
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+       /* left: 38%;*/
+        left: 3%;
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        word-spacing: 1em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        /*left: 45%;*/
+        left: 10%;
+    }
+}
+
+
+
+
+/* passt soweit mit kleinem Bild*/
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url("pics/Sandra_klein2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; 
+        /*background: #292929;*/
+        width: 100%;
+        height: 100%;
+        
+    }
+    /*Navbar*/
+    .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+         height: 72px;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        width: 75%;
+        position: absolute;
+        left: 16%;
+        top: 19%;
+    }
+    nav {
+        display: flex;
+        align-items: flex-start; /*center;*/
+        /*justify-content: space-between;*%`/
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+      }
+      
+      nav ul {
+        display: flex;
+        left: 3%;
+        width: 99%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 5%; /*100px*/
+        margin-left: 1%;
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+
+    .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+    }
+
+
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        /*width: 442px;*/
+        width: 90%;
+        /*height: 102px;*/
+        height: 12%;
+        /*left: 154px;
+        top: 262px;*/
+        left: 9%;
+        top: 3%;
+    }
+
+
+
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+    
+    }
+
+    img{
+        width: 90%; 
+        height: 100%;
+    }
+    /* Line 1 */
+
+    hr.solid {
+        position: absolute;
+        /*width: 350px;*/
+        width: 90%;
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 3%;
+        top: 15%;
+    
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+    }
+
+    
+    /* Einzelcoaching Unternehmensberatung Beautycoaching */
+    .textbox{
+        position: absolute;
+        width: 100%;
+        height: 12%;
+       /* width: 441px;
+        height: 123px;*/
+        /*left: 143px;
+        top: 522px;*/
+        left: 0%;
+        top: 45%;
+        text-align: center;
+    
+    }
+
+    .contact_box{
+        position: absolute;
+        width: 100%;
+        height: 54px;
+        /*left: 468px;
+        top: 1083px;
+        bottom: 30%;*/
+        left: 0%;
+        text-align: center;
+        top: 80%;
+    }
+
+    .acontact_mail{
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height:36px;
+       /* bottom: 30%;*/
+        color: #B7A09E;
+    }
+    
+
+    
+
+    footer{
+        display: flex; 
+        float: left;
+        
+        position: fixed;
+        left: 27%;
+        
+        bottom: 0;
+        text-align: center;
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        /*justify-content: space-between;*/
+        text-align: center;
+        top: 91%;
+        left: 38%;
+        /*left: 3%;*/
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        word-spacing: 1em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        left: 45%;
+        /*left: 10%;*/
+    }
+    
+}
+/*passt soweit mit großem Bild*/
+@media screen and (min-width: 992px){
+    body{
+        /*background-image: url("pics/Start_Sandra.png");*/
+        background-image: url("pics/StartseitenBild.jpg");      
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; 
+        /*background: #292929;*/
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    
+    .Startseite{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%; 
+        left: 0px;
+        top: 0px;
+        /*background: #292929;*/
+        
+    }
+    
+    /*
+    StartseitenBild 1 
+    Start_Pic{
+        position: absolute;
+        width: 1265px;
+        height: 845px;
+        left: 375px;
+        top: 0px;
+    
+        background-image: url("pics/Start_Sandra.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*pics/Start_Sandra.png
+    
+    */
+    
+    /*Navbar*/
+    .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+        height: 72px;
+        width: 60%;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        position: absolute;
+        left: 3%;
+        top: 54%;
+      }
+      
+      .wrapper {
+        width: 100%;  /*Vielleicht ausbauen!!!!!*/
+        margin: 0 auto;
+        /*left: 12%;
+        top: 54%;*/
+      }
+      
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+      }
+      
+      nav ul {
+        display: flex;
+        width: 100%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 10%; /*100px*/
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+      
+      .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+      }
+    
+    /* Rectangle 1 
+    
+    rect1{
+        position: absolute;
+        width: 396px;
+        height: 845px;
+        left: -19px;
+        top: 0px;
+    
+        background: #D7D7D7;
+    }
+    */
+    
+    
+    
+    /* Rectangle 3 */
+    .rect3{
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        left: -98px;
+       /* top: 772px;*/
+       top: 90%;
+        
+        background: #B9AFAE;
+        filter: blur(169px);
+    }
+    
+    
+    
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        width: 40%;/*442px;30%*/
+        height: 12%;/*102px; 12%*/
+        /*left: 154px;
+        top: 262px;*/
+        left: 16%;
+        top: 27%;
+    }
+    
+    
+    
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+        
+    }
+    
+    
+    
+    
+    
+    /* Line 1 */
+    
+    hr.solid {
+        position: absolute;
+        width: 59%; /*568px*/
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 3%;
+        top: 49%;
+    
+        
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+      }
+    
+    /*.line1{
+        position: absolute;
+        width: 568px;
+        height: 0px;
+        left: 78px;
+        top: 417px;
+        
+        border: 0.5px solid #292929;
+    }*/
+    
+    
+    
+    
+    /* Einzelcoaching Unternehmensberatung Beautycoaching */
+    .textbox{
+        position: absolute;
+        width: 441px;
+        height: 123px;
+        /*left: 143px;
+        top: 522px;*/
+        left: 10%;
+        top: 65%;
+        /*bottom: 62%;*/
+        
+    }
+    li{
+        list-style: none;
+    }
+    
+    .ptext{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: capitalize;
+    
+        color: #B7A09E;
+        
+    }
+    
+    /* Jetzt individuelles Angebot anfordern */
+    
+    .contact_box{
+        position: absolute;
+        width: 504px;
+        height: 54px;
+        /*left: 468px;
+        top: 1083px;
+        bottom: 30%;*/
+        left: 10%; /*12%*/
+        top: 80%;
+    }
+    
+    .acontact_mail{
+     
+    
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 31px;
+        line-height: 36px;
+       /* bottom: 30%;*/
+        color: #B7A09E;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* © sandra pietzschmann Impressum datenschutz */
+    footer{
+        display: flex; 
+        float: left;
+        
+        position: fixed;
+        left: 35%;
+        
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+        left: 38%;
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        word-spacing: 2em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        left: 45%;
+    }
+}
+/*vielleicht anpassen Vollbild  1531*/
+@media screen and (min-width: 1200px){
+    body{
+        /*background-image: url("pics/Start_Sandra.png");*/
+        background-image: url("pics/StartseitenBild.jpg");      
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; 
+        /*background: #292929;*/
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    
+    .Startseite{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%; 
+        left: 0px;
+        top: 0px;
+        /*background: #292929;*/
+        
+    }
+    
+    /*
+    StartseitenBild 1 
+    Start_Pic{
+        position: absolute;
+        width: 1265px;
+        height: 845px;
+        left: 375px;
+        top: 0px;
+    
+        background-image: url("pics/Start_Sandra.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*pics/Start_Sandra.png
+    
+    */
+    
+    /*Navbar*/
+    .nav-container {
+        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);*/
+        height: 72px;
+        width: 38%;
+        /*margin-top: -65px;*/
+        /*z-index: 500;*/
+        position: absolute;
+        left: 6%;
+        top: 54%;
+      }
+      
+      .wrapper {
+        width: 100%;  /*Vielleicht ausbauen!!!!!*/
+        margin: 0 auto;
+        /*left: 12%;
+        top: 54%;*/
+      }
+      
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72px;
+        /*left: 12%;
+        top: 54%;*/
+      }
+      
+      nav ul {
+        display: flex;
+        width: 100%;
+      }
+      
+     
+      
+      .nav-items li {
+        list-style: none;
+        margin-right: 10%; /*100px*/
+        
+      }
+      
+      .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+      }
+      
+      .nav-items li a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+        
+        color: #292929;
+      }
+    
+    /* Rectangle 1 
+    
+    rect1{
+        position: absolute;
+        width: 396px;
+        height: 845px;
+        left: -19px;
+        top: 0px;
+    
+        background: #D7D7D7;
+    }
+    */
+    
+    
+    
+    /* Rectangle 3 */
+    .rect3{
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        left: -98px;
+       /* top: 772px;*/
+       top: 90%;
+        
+        background: #B9AFAE;
+        filter: blur(169px);
+    }
+    
+    
+    
+    /* Frame Logo */
+    .frame_logo{
+        position: absolute;
+        width: 30%;/*442px;*/
+        height: 12%;/*102px; 12%*/
+        /*left: 154px;
+        top: 262px;*/
+        left: 11%;
+        top: 31%;
+    }
+    
+    
+    
+    /* Group Logo */
+    .group_logo{
+        position: absolute;
+        left: 0%;
+        right: -0.07%;
+        top: 0%;
+        bottom: -0.29%;
+        
+    }
+    
+    
+    
+    
+    
+    /* Line 1 */
+    
+    hr.solid {
+        position: absolute;
+        width: 45%;/*38%; /*568px*/
+        height: 0px;
+        /*left: 78px;
+        top: 417px;*/
+        left: 6%;
+        top: 49%;
+    
+        
+        border: 0.5px solid #292929;
+        /*border-top: 3px solid #292929;*/
+      }
+    
+    /*.line1{
+        position: absolute;
+        width: 568px;
+        height: 0px;
+        left: 78px;
+        top: 417px;
+        
+        border: 0.5px solid #292929;
+    }*/
+    
+    
+    
+    
+    /* Einzelcoaching Unternehmensberatung Beautycoaching */
+    .textbox{
+        position: absolute;
+        width: 441px;
+        height: 123px;
+        /*left: 143px;
+        top: 522px;*/
+        left: 10%;
+        top: 62%;
+        /*bottom: 62%;*/
+        
+    }
+    li{
+        list-style: none;
+    }
+    
+    .ptext{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: capitalize;
+    
+        color: #B7A09E;
+        
+    }
+    
+    /* Jetzt individuelles Angebot anfordern */
+    
+    .contact_box{
+        position: absolute;
+        width: 504px;
+        height: 54px;
+        /*left: 468px;
+        top: 1083px;
+        bottom: 30%;*/
+        left: 10%; /*12%*/
+        top: 80%;
+    }
+    
+    .acontact_mail{
+     
+    
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 31px;
+        line-height: 36px;
+       /* bottom: 30%;*/
+        color: #B7A09E;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* © sandra pietzschmann Impressum datenschutz */
+    footer{
+        display: flex; 
+        float: left;
+        
+        position: fixed;
+        left: 38%;
+        
+        bottom: 0;
+        /*text-align: center;*/
+        margin-bottom: 0;
+        /*left: 560px;
+        top: 774px;
+        */
+        justify-content: space-between;
+    }
+    .pfooter{   
+        display: flex; 
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        top: 91%;
+        left: 38%;
+    }
+    .afooter{
+        
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #F4F4F4;
+        word-spacing: 2em;
+        /*justify-content: space-between;*/
+        /*text-align: center;*/
+        left: 45%;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    hr.solid {
+        width: 42%;
+    }
+}
+@media screen and (min-width: 1445px){
+    hr.solid {
+        width: 38%;
+    }
+}
